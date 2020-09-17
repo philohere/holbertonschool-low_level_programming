@@ -1,7 +1,9 @@
 #include<stdio.h>
 
-/*
- * Using the put command to print text 
+/**
+ * main- void
+ *Description: print" Programming is like building a multilangual puzzle
+ *Return: 0
 */
 
 int main(void)

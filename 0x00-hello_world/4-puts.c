@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-/**
+/*
  * main- void
- *Description: print" Programming is like building a multilangual puzzle
+ *Description: Display text on screen
  *Return: 0
 */
 

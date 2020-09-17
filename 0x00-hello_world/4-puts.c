@@ -1,13 +1,13 @@
 #include<stdio.h>
 
-/**
- * main- void
- * Description: Display text on screen
- * Return: 0
- */
-
 int main(void)
 {
+
+  /**
+   * main- void
+   * Description: Displays text on the screen.
+   * Return: 0
+   */
 
   puts("\"Programming is like building a multilingual puzzle");
 

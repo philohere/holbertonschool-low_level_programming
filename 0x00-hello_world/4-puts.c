@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+/* Using the put command to print text */
+
 int main(void)
 {
 

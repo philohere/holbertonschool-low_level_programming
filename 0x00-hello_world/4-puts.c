@@ -2,9 +2,9 @@
 
 /**
  * main- void
- *Description: Display text on screen
- *Return: 0
- **/
+ * Description: Display text on screen
+ * Return: 0
+ */
 
 int main(void)
 {

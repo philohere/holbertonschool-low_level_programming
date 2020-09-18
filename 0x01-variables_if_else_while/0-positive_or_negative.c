@@ -1,8 +1,8 @@
 /**
- * main- void
- * Description: This tells you if a number is positve, negative, or equal to 0.
- * Return: 0
- */
+* main- void
+* Description: This tells you if a number is positve, negative, or equal to 0.
+* Return: 0
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

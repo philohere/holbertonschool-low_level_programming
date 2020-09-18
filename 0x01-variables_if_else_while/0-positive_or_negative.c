@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <time.h>
 
- main(void)
+main(void)
 {
 	int n;
 

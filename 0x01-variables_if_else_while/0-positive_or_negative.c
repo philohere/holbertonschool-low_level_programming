@@ -1,14 +1,15 @@
-/**
-* main- void
-* Description: This tells you if a number is positve, negative, or equal to 0.
-* Return: 0
-*/
-
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
+/**
+ * main- void
+ * Description: This tells you if a number is positve, negative, or equal to 0.
+ * Return: 0
+ */
 
 int main(void)
+
 {
 	int n;
 

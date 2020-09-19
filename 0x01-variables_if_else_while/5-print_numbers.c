@@ -3,7 +3,8 @@
 /**
 * main- void
 *
-* Description: Displays all numbers in base 10 starting from 0
+* Description: Displays all numbers in base 10 starting from 0 only using
+* putchar
 *
 * Return: 0
 */
@@ -13,7 +14,7 @@ int main(void)
 	int x;
 
 	for (x = 0; x < 10; x++)
-		printf("%d", x);
+		putchar((x % 10) + '0');
 
 
 	{

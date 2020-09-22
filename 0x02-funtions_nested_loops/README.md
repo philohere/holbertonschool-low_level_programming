@@ -1,1 +1,1 @@
-## This lesson is about funtions and nested loops
+## This lesson is about functions and nested loops

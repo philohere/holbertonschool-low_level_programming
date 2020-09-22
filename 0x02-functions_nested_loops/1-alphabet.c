@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * main- void
+ * print_alphabet - void
  *
  * Description: Display the alphabet
  *
- * Return: 0
+ * No Return
  */
 
 void print_alphabet(void)

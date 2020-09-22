@@ -3,7 +3,7 @@
 /**
 *main - void
 *
-*Description: Display Holberton by calling on another function
+*Description: Display Holberton by calling on another function.
 *
 *Return: 0
 */

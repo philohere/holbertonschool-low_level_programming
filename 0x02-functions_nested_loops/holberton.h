@@ -1,6 +1,8 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+int print_last_digit(int);
+
 int _putchar(char c);
 
 void print_alphabet(void);

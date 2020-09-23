@@ -1,7 +1,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-int print_last_digit(int);
+int print_last_digit(int r);
 
 int _putchar(char c);
 

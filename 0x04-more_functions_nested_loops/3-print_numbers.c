@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* print_numbers
+* print_numbers - Print numbers
 *
 * Description: Print numbers 0-9 only using putchar twice
 *

@@ -32,8 +32,6 @@ int main(void)
 			printf("FizzBuzz");
 		printf(" ");
 		}
-		else
-			printf("\n");
 	}
 	printf("\n");
 	return (0);

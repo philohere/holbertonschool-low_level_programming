@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_triangle - Print a triangle
- * @size: variable input
+ * main - main
+ *
  * Return: void
  */
 
-print_triangle(int size)
+int main(void)
 {
 	return (0);
 }

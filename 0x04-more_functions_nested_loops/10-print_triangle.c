@@ -6,7 +6,14 @@
  * Return: void
  */
 
-print_triangle(int size)
+void print_triangle(int size)
 {
-	return (0);
+	int row;
+	int col;
+
+	for (row = 0; row < size; row++)
+	{
+		_putchar('#');
+	_putchar('\n');
+	}
 }

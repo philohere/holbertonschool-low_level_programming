@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * _strlen - counts the number of characters in a string
@@ -25,7 +26,7 @@ int _strlen(char *s)
 
 void puts_half(char *str)
 {
-	int count = (_strlen(str) - 1);
+	int count = _strlen(str);
 	int a;
 	int b;
 	int c;
@@ -33,12 +34,13 @@ void puts_half(char *str)
 	if (count % 2 == 0)
 	{
 		c = count / 2;
-	for (a = 0; a <= c; a++)
+
+	for (a = c; str[a] != '\0'; a++)
 	_putchar(str[a]);
 	}
-	if (count % 2 != 0)
+	else
 	{
-		c = count / 2;
+		c = (count - 1) / 2;
 	for (b = c + 1; str[b] != '\0'; b++)
 	_putchar(str[b]);
 	}

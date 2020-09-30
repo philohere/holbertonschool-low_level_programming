@@ -8,12 +8,12 @@
 
 int _strlen(char *s)
 {
-        int count = 0;
+	int count = 0;
 
-        while (s[count] != '\0')
-        {
-                count++;
-        }
+	while (s[count] != '\0')
+	{
+		count++;
+	}
 	return (count);
 }
 
@@ -32,15 +32,15 @@ void puts_half(char *str)
 
 	if (count % 2 != 0)
 	{
-		c = count / 2;
-		for (a = 0; a < c; a++)
-			_putchar(str[a]);
-	 }
-		if (count % 2 == 0)
-		{
-			c = count / 2;
-			for (b = c; str[b] != '\0'; b++)
-		_putchar(str[b]);
-	    }
+	c = count / 2;
+	for (a = 0; a < c; a++)
+	_putchar(str[a]);
+	}
+	if (count % 2 == 0)
+	{
+	c = count / 2;
+	for (b = c; str[b] != '\0'; b++)
+	_putchar(str[b]);
+	}
 	_putchar('\n');
 }

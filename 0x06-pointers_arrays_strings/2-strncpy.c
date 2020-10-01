@@ -9,13 +9,12 @@
 
 int _strlen(char *s)
 {
-	int count = 0;
+        int count = 0;
 
-	while (s[count] != '\0')
-	{
-		count++;
-	}
-	return (count);
+        while (s[count] != '\0')
+        {
+                count++;                                             }
+        return (count);
 }
 
 /**
@@ -29,10 +28,12 @@ int _strlen(char *s)
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
-	int count = _strlen(src);
+	int srclen = _strlen(src);
 
-	for (i = 0; i <= count; i++)
+	for (i = 0; i <= srclen && i < n; i++)
 		dest[i] = src[i];
+	for (; i < n; i++)
+		dest[i] = '\0';
 
 	return (dest);
 }

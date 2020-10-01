@@ -28,10 +28,19 @@ int _strlen(char *s)
 int _strcmp(char *s1, char *s2)
 {
 	int i;
-	int count = _strlen(src);
+	int s1_len = _strlen(s1);
+	int s2_len = _strlen(s2);
 
-	for (i = 0; i <= count; i++)
-		dest[i] = src[i];
-
-	return (dest);
+	if (s1_len != 0)
+	{
+		i = s1_len - s2_len;
+	return (i);
+	}
+	else if (s2_len != 0)
+	{
+		i = s2_len - s1_len;
+		return (i);
+	}
+	else
+		return (0);
 }

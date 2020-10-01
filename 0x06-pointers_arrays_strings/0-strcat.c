@@ -20,7 +20,7 @@ int _strlen(char *s)
 
 /**
  * _strcat - cocatenates two strings
- * @dest: copying to this pointer
+ * @dest: string to be appended
  * @src: input string
  * Return: concatenated strings
  */
@@ -28,10 +28,12 @@ int _strlen(char *s)
 char *_strcat(char *dest, char *src)
 {
 	int i;
-	int count = _strlen(src);
 
-	for (i = 0; i <= count; i++)
-		dest[i] = src[i];
+	int destlen = _strlen(dest);
+	int srclen = _strlen(src);
+
+	for (i = 0; i < srclen; i++)
+		dest[destlen + i] = src[i];
 
 	return (dest);
 }

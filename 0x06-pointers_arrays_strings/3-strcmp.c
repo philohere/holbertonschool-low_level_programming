@@ -36,11 +36,6 @@ int _strcmp(char *s1, char *s2)
 		i = s1_len - s2_len;
 	return (i);
 	}
-	else if (s2_len != 0)
-	{
-		i = s2_len - s1_len;
-		return (i);
-	}
 	else
 		return (0);
 }
